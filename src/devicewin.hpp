@@ -105,7 +105,7 @@ private:
 	void TidyWindowsList();
 
 public:
-	DeviceWIN() : GraphicsMultiDevice(), oIx(1), actWin(-1), decomposed(-1)
+	DeviceWIN() : GraphicsMultiDevice(-1, 3, 3, 0), oIx(1), actWin(-1)
 	{
 		name = "WIN";
 
