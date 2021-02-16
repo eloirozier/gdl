@@ -35,7 +35,7 @@
 //#define MAX_WIN 32  //IDL free and widgets start at 33 ...
 //#define MAX_WIN_RESERVE 256 
 
-class DeviceWIN : public GraphicsDevice
+class DeviceWIN : public GraphicsMultiDevice
 {
 private:
 	static LRESULT CALLBACK _CallWndProc(int, WPARAM, LPARAM);
