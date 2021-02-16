@@ -63,7 +63,6 @@ private:
 		int, int, int, int, bool);
 	bool WState(int);
 	bool WSize(int, int*, int*);
-	bool WSet(int);
 	bool WShow(int, bool, int);
 	int WAdd();
 	DIntGDL* GetWindowPosition();

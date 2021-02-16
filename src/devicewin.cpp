@@ -382,18 +382,6 @@ bool DeviceWIN::WSize(int wIx, int *xSize, int *ySize)
 	return true;
 }
 
-bool DeviceWIN::WSet(int wIx)
-{
-	TidyWindowsList();
-
-	int wLSize = winList.size();
-	if (wIx >= wLSize || wIx < 0 || winList[wIx] == NULL)
-		return false;
-
-	SetActWin(wIx);
-	return true;
-}
-
 bool DeviceWIN::WShow(int ix, bool show, int iconic)
 {
 	TidyWindowsList();
